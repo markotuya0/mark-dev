@@ -1,5 +1,5 @@
 body {
-    background-color: #5b3e3e;
+    background-color: #FFFFFF;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -11,12 +11,12 @@ body {
     flex-direction: column;
 }
 
-
+/* Navbar Part */
 
 .navbar {
     display: flex;
     color: #F9FAF8;
-    background-color: #302424;
+    background-color: #1F2937;
     padding: 20px 0px 20px 100px;
     align-items: center;
 }
@@ -41,11 +41,12 @@ body {
     font-family: 'Roboto', arial;
 }
 
+/* Hero Part */
 
 .hero {
     display: flex;
     color: #F9FAF8;
-    background-color: #1b1515;
+    background-color: #1F2937;
     align-items: center;
     justify-content: center;
     padding: 90px;
@@ -91,6 +92,7 @@ h1 {
     height: 350px;
 }
 
+/* Content Part */
 
 .content {
     align-items: center;
@@ -98,6 +100,7 @@ h1 {
 
 .content-info {
     display: flex;
+    /* border: 1px solid gold; */
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -111,11 +114,12 @@ h1 {
     margin: 5px 20px 0px 20px;
 }
 
+/* Quotation Part */
 
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #bcb7b5;
+    background-color: #E5E7EB;
     padding: 0 200px;
 }
 
@@ -134,8 +138,9 @@ h1 {
     text-align: right;
 }
 
+/* Sign Up Part */
 .sign-up {
-    background-color: #81697b ;
+    background-color: #3882F6 ;
     margin: 50px 200px;
     padding: 10px 80px;
     display: flex;
@@ -175,6 +180,7 @@ h3 {
     font-size: 15px;
 }
 
+/* Footer */
 
 .footer {
     background-color: #1F2937;
